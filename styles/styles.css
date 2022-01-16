@@ -1,0 +1,75 @@
+/* links */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Poppins:wght@400;500&display=swap');
+/* font-family: 'Libre Baskerville', serif; */
+/* font-family: 'Poppins', sans-serif; */
+/* links */
+body{
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Libre Baskerville', serif; */
+    /* background-color: rgb(234, 253, 252); */
+    margin: 0 ;
+    /* margin-right: 10%; */
+    /* margin-left: 10%; */
+    /* margin-right: 10%; */
+}
+/* -------------
+     header
+----------------- */
+
+.header{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header-title{font-size: 18px;
+    /* font-family: 'Libre Baskerville', serif; */
+    /* margin-left:-1%; */
+}
+nav a {
+    margin-right: 20px ;
+    font-size: 1.3em;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.section-one{
+    display: flex;
+    justify-content: space-around;
+    /* margin: 0 10%; */
+}
+.section-one img{
+    width: 440px;
+    height: 414px;
+}
+.info{
+    width: 40%;
+    margin-left: 10%;
+}
+.image{
+    /* width: 40%; */
+    margin-right: 10%;
+}
+.section-one>.info>h1{
+    font-size: 52px;
+}
+.section-one>.info>p{
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+.section-one>.info>.button:hover{
+padding: 15px 60px;
+transform: scale(100px);
+}
+.button{
+    background-color: rgb(240, 73, 156);
+    font-size: 16px;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 25px;
+}
+.fas.fa-arrow-right{ 
+    font-weight: 700;
+    padding-left: 10px;
+}
