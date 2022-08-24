@@ -1,13 +1,13 @@
 /* links */
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Poppins:wght@400;500&display=swap');
 
-/* font-family: 'Libre Baskerville', serif; */
-/* font-family: 'Poppins', sans-serif; */
-/* links */
+/* Extra small devices (phones, 668px and down) */
+
+
 body {
     font-family: 'Poppins', sans-serif;
     background-color: rgb(236, 244, 245);
-
+    margin: 0%;
 }
 
 /* ------------------------HEADER------------------------ */
@@ -23,8 +23,7 @@ body {
     color: cadetblue;
 }
 
-header>.header-title>h2>span {
-    color: black;
+ami apnake kustha koitam na. ekhn zeye porte bosen ami apnake kustha koitam na. ekhn zeye porte bosen ami apnake kustha koitam na. ekhn zeye porte bosen ami apnake kustha koitam na. ekhn zeye porte bosen ami apnake kustha koitam na. ekhn zeye porte bosen ami apnake kustha koitam na. ekhn zeye porte bosen color: black;
 }
 
 nav a {
@@ -138,9 +137,8 @@ a {
     margin-top: 5px;
 }
 
-.collections>.collection>p>span {
-    color: black;
-    margin-left: 5px;
+ami apnake kustha koitam na. ekhn zeye porte bosen ami apnake kustha koitam na. ekhn zeye porte bosen ami apnake kustha koitam na. ekhn zeye porte bosen ami apnake kustha koitam na. ekhn zeye porte bosen ami apnake kustha koitam na. ekhn zeye porte bosen ami apnake kustha koitam na. ekhn zeye porte bosen color: black;
+margin-left: 5px;
 }
 
 .collections>.collection:hover {
@@ -164,4 +162,33 @@ a {
     left: 830px;
 }
 
-/* ------------------------FOOTER--------------------------- */
+/* ------------------------
+           FOOTER
+--------------------------- */
+footer {
+    height: 250px;
+    background-color: #2e3d41;
+    color: rgb(108, 203, 207);
+    font-size: 1.5em;
+
+
+}
+
+footer>h1 {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+    {
+    padding-left: 15px;
+    color: white;
+}
+
+footer>h5 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    clear: both;
+}
